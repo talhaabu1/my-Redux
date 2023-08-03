@@ -10,7 +10,7 @@ import routes from "./routes/routes";
 
 function App() {
   const dispatch = useDispatch();
-  // ? HEllo start
+  // ? HELLO START
 
   useEffect(() => {
     onAuthStateChanged(auth, (user) => {
